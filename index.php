@@ -36,7 +36,7 @@ else:
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Alphamart <?= date('Y'); ?></a>
+                        <span>Copyright &copy; Indomart <?= date('Y'); ?></a>
                         </span>
                     </div>
                 </div>

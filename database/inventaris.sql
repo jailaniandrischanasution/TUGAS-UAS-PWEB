@@ -4,7 +4,7 @@
 --
 -- Host: 127.0.0.1
 -- Waktu pembuatan: 25 Bulan Mei 2024 pada 13.48
--- Versi server: 10.4.22-MariaDB
+-- Versi server: 10.4.22-MariaDBch
 -- Versi PHP: 7.3.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";

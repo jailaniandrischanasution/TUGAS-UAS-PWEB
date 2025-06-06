@@ -22,7 +22,7 @@
                     <thead>
                         <tr>
                             <th width="20">NO</th>
-                            <th> NAMA MEREK</th>
+                            <th > NAMA MEREK</th>
                             <th>KETERANGAN</th>
                             <th width="50">AKSI</th>
                         </tr>
@@ -35,7 +35,7 @@
                         ?>
                             <tr>
                                 <td><?= $n++; ?></td>
-                                <td><?= $row['nama_merek']; ?></td>
+                                <td ><?= $row['nama_merek']; ?></td>
                                 <td><?= $row['keterangan']; ?></td>
                                 <td>
                                     <a href="<?= base_url(); ?>/process/merek.php?act=<?= encrypt('delete'); ?>&id=<?= encrypt($row['idmerek']); ?>" class="btn btn-sm btn-circle btn-danger btn-hapus"><i class="fas fa-trash"></i></a>
