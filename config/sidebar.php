@@ -71,9 +71,6 @@
                     Barang Masuk</a>
                 <a class="collapse-item <?=isset($lap_barang_keluar)?'active':'';?>" href="?lap_barang_keluar">Laporan
                     Barang Keluar</a>
-                <a class="collapse-item <?=isset($lap_stok_barang)?'active':'';?>"
-                    href="<?=base_url();?>process/lap_stok_barang.php" target="_blank">Laporan Stok
-                    Barang</a>
             </div>
         </div>
     </li>
